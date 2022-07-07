@@ -1,0 +1,12 @@
+[package]
+name = "my_gtk_rs_calculator"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+my_regex_calculator_lib = { git = "https://github.com/zayats1/my_regex_calculator_lib.git", branch = "master" }
+gtk4 = "0.4.8"
+relm4 = "0.4.4"
+relm4-macros = "0.4.4"
+relm4-components = "0.4.4"
